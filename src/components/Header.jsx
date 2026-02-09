@@ -1,9 +1,10 @@
 export function Header() {
   return (
-    <header className="header">
-      <h1>Carpintería Arte y Diseño</h1>
+    <header className="bg-white text-black p-4 flex justify-between items-center">
+      <img src="../assets/logo-r.webp" />
+      <h1>Carpintería Arte & Diseño</h1>
       <nav>
-        <ul>
+        <ul className="flex space-x-4">
           <li>
             <a href="#services">Services</a>
           </li>
