@@ -1,16 +1,77 @@
-# React + Vite
+# 🪵 Carpintería Moderna – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Responsive](https://img.shields.io/badge/Responsive-Design-0A0A0A?style=for-the-badge)
 
-Currently, two official plugins are available:
+Landing page moderna para una carpintería premium que combina tradición artesanal con diseño contemporáneo.  
+El proyecto está enfocado en diseño visual, experiencia de usuario y buenas prácticas de frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Demo
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+🔗 **Live Preview:**  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Objetivo del Proyecto
+
+Construir una landing page profesional que:
+
+- Transmita elegancia y modernidad
+- Resalte el trabajo artesanal
+- Tenga un hero impactante
+- Sea completamente responsive
+- Use buenas prácticas con React + Tailwind
+
+Este proyecto forma parte de mi proceso de aprendizaje y construcción de portafolio frontend.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+
+---
+
+## ✨ Características Principales
+
+- Hero section con imagen de fondo + overlay degradado
+- Jerarquía visual clara y tipografía fuerte
+- Diseño adaptable a móvil y desktop
+- Uso estratégico de gradientes para mejorar legibilidad
+- Estructura modular con componentes React
+
+---
+
+## 📈 Aprendizajes
+
+Durante este proyecto trabajé en:
+
+- Manejo correcto de capas (`relative`, `absolute`, `z-index`)
+- Creación de overlays con gradientes en Tailwind
+- Optimización de texto sobre imágenes
+- Estructuración limpia de componentes
+- Uso de HMR con Vite
+
+---
+
+## 📌 Mejoras Futuras
+
+- Animaciones sutiles en el hero
+- Sección de portafolio de trabajos
+- Integración con formulario funcional
+- Optimización avanzada de rendimiento (Lighthouse 90+)
+
+---
+
+## 👨‍💻 Autor
+
+**Juan Diossa**   
+📍 Medellin - Colombia  
