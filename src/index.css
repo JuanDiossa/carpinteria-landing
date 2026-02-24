@@ -5,3 +5,14 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 1.5rem;
+}
+
+.masonry-item-tall {
+  grid-row: span 2;
+}
