@@ -46,22 +46,27 @@ export function Gallery() {
       : images.filter((image) => image.category === selectedCategory);
 
   return (
-    <section className="h-[90vh] w-full overflow-hidden bg-background-light py-16">
+    <section className="w-full overflow-hidden bg-background-light py-16">
       <div className="container max-w-9xl mx-auto flex items-center justify-between">
         <div>
-          <span className="text-primary font-bold uppercase tracking-wider">
+          <span className="text-primary font-bold uppercase tracking-wider px-5">
             TRABAJOS SELECCIONADOS
           </span>
-          <h2 className="text-4xl md:text-5xl font-black leading-[1.1] tracking-tight">
+          <h2 className="text-2xl md:text-4xl sm:text-3xl font-black leading-[1.1] tracking-tight px-5">
             GALERIA DE TRABAJOS
           </h2>
         </div>
-        <nav className="border border-gray-200 rounded-lg">
+        <nav className="border border-gray-200 rounded-lg mr-5">
           <ul className="flex">
             {categories.map((category) => (
               <li
                 key={category}
-                className={`text-gray-500 text-sm font-semibold p-4 rounded-lg hover:bg-white hover:shadow-sm hover:border-gray-100 hover:text-charcoal transition-colors cursor-pointer ${selectedCategory === category ? "bg-white text-charcoal" : ""}`}
+                className={`text-sm font-medium py-2 px-4 rounded-xl transition-all duration-300 cursor-pointer
+                  ${
+                    selectedCategory === category
+                      ? "bg-white text-charcoal shadow-sm"
+                      : "text-gray-500 hover:shadow-sm hover:text-charcoal"
+                  }`}
                 onClick={() => setSelectedCategory(category)}
               >
                 {category}
