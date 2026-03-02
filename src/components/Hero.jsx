@@ -1,9 +1,14 @@
+import heroBg from "/hero-bg1.webp";
+
 export function Hero() {
   return (
     <section className="relative h-[85vh] w-full flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
-        <div className="w-full h-full bg-center bg-cover bg-hero-bg"></div>
+        <div
+          className="w-full h-full bg-center bg-cover"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        ></div>
       </div>
       <div className="relative container z-20 max-w-9xl mx-auto px-6 ">
         <span className="text-sm uppercase text-white bg-primary px-3 py-1 rounded-lg font-bold tracking-wide mb-3 inline-block">

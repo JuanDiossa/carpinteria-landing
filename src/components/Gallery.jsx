@@ -1,37 +1,50 @@
 import { useState } from "react";
 
 export function Gallery() {
+  const publicPath = import.meta.env.BASE_URL || "/";
   const images = [
-    { src: "/gallery/baño1.webp", alt: "Baño 1", category: "Baños" },
-    { src: "/gallery/baño2.webp", alt: "Baño 2", category: "Baños" },
-    { src: "/gallery/baño3.webp", alt: "Baño 3", category: "Baños" },
     {
-      src: "/gallery/cocina1.webp",
+      src: `${publicPath}gallery/baño1.webp`,
+      alt: "Baño 1",
+      category: "Baños",
+    },
+    {
+      src: `${publicPath}gallery/baño2.webp`,
+      alt: "Baño 2",
+      category: "Baños",
+    },
+    {
+      src: `${publicPath}gallery/baño3.webp`,
+      alt: "Baño 3",
+      category: "Baños",
+    },
+    {
+      src: `${publicPath}gallery/cocina1.webp`,
       alt: "Cocina 1",
       category: "Cocinas",
     },
     {
-      src: "/gallery/cocina2.webp",
+      src: `${publicPath}gallery/cocina2.webp`,
       alt: "Cocina 2",
       category: "Cocinas",
     },
     {
-      src: "/gallery/cocina3.webp",
+      src: `${publicPath}gallery/cocina3.webp`,
       alt: "Cocina 3",
       category: "Cocinas",
     },
     {
-      src: "/gallery/closet1.webp",
+      src: `${publicPath}gallery/closet1.webp`,
       alt: "Closet 1",
       category: "Closets",
     },
     {
-      src: "/gallery/closet2.webp",
+      src: `${publicPath}gallery/closet2.webp`,
       alt: "Closet 2",
       category: "Closets",
     },
     {
-      src: "/gallery/closet3.webp",
+      src: `${publicPath}gallery/closet3.webp`,
       alt: "Closet 3",
       category: "Closets",
     },

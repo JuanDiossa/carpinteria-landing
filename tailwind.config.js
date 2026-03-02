@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('./src/assets/hero-bg1.webp')",
+        "hero-bg-dev": "url('./src/assets/hero-bg1.webp')",
+        "hero-bg": "url('/carpinteria-landing/hero-bg1.webp')",
       },
       fontFamily: {
         display: ["Inter", "sans-serif"],
