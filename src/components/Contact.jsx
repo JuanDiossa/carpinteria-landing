@@ -7,7 +7,7 @@ export function Contact() {
             <span className="text-sm uppercase text-white bg-primary px-3 py-1 rounded-lg font-bold tracking-wide mb-3 inline-block">
               Get in touch
             </span>
-            <h2 className=" text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight">
+            <h2 className=" text-3xl md:text-5xl sm:text-4xl font-black text-white leading-[1.1] tracking-tight">
               Contacta con nosotros
             </h2>
             <p className=" text-xl text-gray-400 font-light max-w-xl leading-relaxed w-auto">
@@ -17,6 +17,34 @@ export function Contact() {
               expertos está listo para escucharte y ofrecerte soluciones
               personalizadas que se ajusten a tus necesidades y presupuesto.
             </p>
+            <div className="space-y-6 mt-10">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-lg bg-gray-800 flex items-center justify-center border border-gray-700">
+                  <span className="material-symbols-outlined text-primary">
+                    mail
+                  </span>
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-gray-500 uppercase">
+                    Envianos un correo
+                  </p>
+                  <p className="text-lg font-bold">contacto@artediseno.com</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-lg bg-gray-800 flex items-center justify-center border border-gray-700">
+                  <span className="material-symbols-outlined text-primary">
+                    location_on
+                  </span>
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-gray-500 uppercase">
+                    Ubicación
+                  </p>
+                  <p className="text-lg font-bold">Medellín - Colombia</p>
+                </div>
+              </div>
+            </div>
           </div>
           <form
             action="#"
