@@ -4,6 +4,7 @@ import { Contact } from "./components/Contact.jsx";
 import { Header } from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { Gallery } from "./components/Gallery.jsx";
+import { About } from "./components/About.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Gallery />
+      <About />
       <Contact />
       <Footer />
     </>
