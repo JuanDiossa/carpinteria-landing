@@ -1,4 +1,6 @@
 import headerImage from "../assets/logo-r.webp";
+import { Navbar } from "./Navbar";
+
 export function Header() {
   return (
     <header className="bg-background-light/80 text-black p-3 flex justify-between items-center sticky top-0 z-50 shadow-md w-full border-b border-gray-200 backdrop-blur-sm">
@@ -13,31 +15,7 @@ export function Header() {
             Arte & Diseño
           </h1>
         </span>
-        <nav className=" md:flex items-center gap-10">
-          <ul className="flex items-center space-x-4">
-            <li>
-              <a
-                className="text-sm font-semibold hover:text-primary transition-colors"
-                href="#services"
-              >
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-sm font-semibold hover:text-primary transition-colors"
-                href="#gallery"
-              >
-                Galeria
-              </a>
-            </li>
-            <li>
-              <button className="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold tracking-wide hover:bg-blue-700 transition-all shadow-lg shadow-primary/20">
-                Contacto
-              </button>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
       </div>
     </header>
   );
