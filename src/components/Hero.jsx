@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="relative h-[85vh] w-full flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent z-10"></div>
         <div
           className="w-full h-full bg-center bg-cover"
           style={{ backgroundImage: `url(${heroBg})` }}
