@@ -2,7 +2,7 @@ export function About() {
   return (
     <section className="bg-white py-24" id="about">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div className="relative">
+        <div className="relative overflow-hidden">
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
             <div
               className="w-full h-full bg-center bg-cover"
