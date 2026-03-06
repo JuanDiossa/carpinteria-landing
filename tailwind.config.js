@@ -21,3 +21,24 @@ export default {
   },
   plugins: [],
 };
+
+// theme: {
+//   extend: {
+//     colors: {
+//       primary: {
+//         DEFAULT: "#9A6B4F",
+//         light: "#C08457",
+//       },
+//       background: {
+//         light: "#F6F6F8",
+//         dark: "#111827",
+//       },
+//       text: {
+//         dark: "#111827",
+//         light: "#F9FAFB",
+//         mutedLight: "#6B7280",
+//         mutedDark: "#9CA3AF",
+//       }
+//     }
+//   }
+// }
