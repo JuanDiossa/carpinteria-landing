@@ -10,16 +10,19 @@ export function Footer() {
             alt="Logo Carpintería Arte & Diseño"
             className="w-6 h-6 object-cover"
           />
-          <p className="text-sm font-black tracking-tight text-charcoal uppercase">
+          <p className="sm:text-sm  md:text-lg text-xs font-black tracking-tight text-charcoal uppercase">
             Arte & Diseño
           </p>
         </span>
-        <p>© 2026 Carpintería Arte & Diseño. Todos los derechos reservados.</p>
-        <nav className=" md:flex items-center gap-10">
-          <ul className="flex items-center space-x-4">
+        <p className="sm:text-sm text-xs font-medium tracking-tight text-gray-500 text-center">
+          © 2026 Carpintería Arte & Diseño. <br />
+          Todos los derechos reservados.
+        </p>
+        <nav className=" md:flex md:items-center ml-1">
+          <ul className="flex flex-col gap-[2px] sm:flex-row sm:items-center sm:gap-4">
             <li>
               <a
-                className="text-sm font-semibold hover:text-primary transition-colors"
+                className="sm:text-sm text-xs font-semibold hover:text-primary transition-colors"
                 href="#services"
               >
                 Servicios
@@ -27,7 +30,7 @@ export function Footer() {
             </li>
             <li>
               <a
-                className="text-sm font-semibold hover:text-primary transition-colors"
+                className="sm:text-sm text-xs font-semibold hover:text-primary transition-colors"
                 href="#gallery"
               >
                 Galeria
