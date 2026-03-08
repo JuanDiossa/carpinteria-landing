@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="relative h-[85vh] w-full flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
         <div
           className="w-full h-full bg-center bg-cover"
           style={{ backgroundImage: `url(${heroBg})` }}
@@ -16,7 +16,7 @@ export function Hero() {
         </span>
         <h2 className=" text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight drop-shadow-lg">
           Carpintería moderna <br />a la
-          <span className="text-primary italic drop-shadow-lg">
+          <span className="text-lightBrown italic drop-shadow-lg">
             {" "}
             medida de tus sueños
           </span>

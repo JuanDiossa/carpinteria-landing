@@ -11,7 +11,8 @@ export default {
         display: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#195de6",
+        primary: "#9A6B4F",
+        lightBrown: "#C08457",
         primaryBeige: "#F2BC8D",
         "background-light": "#f6f6f8",
         "background-dark": "#111621",
@@ -26,6 +27,7 @@ export default {
 //   extend: {
 //     colors: {
 //       primary: {
+//         primary: "#195de6"
 //         DEFAULT: "#9A6B4F",
 //         light: "#C08457",
 //       },

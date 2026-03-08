@@ -60,7 +60,7 @@ export function Navbar() {
             </a>
           </li>
           <li className="p-4">
-            <button className="bg-primary text-white px-2 py-1.5 rounded-lg text-sm font-bold tracking-wide hover:bg-blue-700 transition-all shadow-lg shadow-primary/20 w-full">
+            <button className="bg-primary text-white px-2 py-1.5 rounded-lg text-sm font-bold tracking-wide hover:bg-lightBrown transition-all shadow-lg shadow-primary/20 w-full">
               Contacto
             </button>
           </li>
