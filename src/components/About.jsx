@@ -1,18 +1,22 @@
+import aboutImg from "/about.webp";
 export function About() {
   return (
     <section className="bg-white py-24" id="about">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-7 items-center">
+        <span className="text-sm uppercase text-white bg-primary px-3 py-1 rounded-lg font-bold tracking-wide inline-block w-max">
+          Acerca de nosotros
+        </span>
         <div className="relative overflow-hidden">
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
             <div
               className="w-full h-full bg-center bg-cover"
               data-alt="Carpenter working on a wooden joint in a workshop"
+              style={{ backgroundImage: `url(${aboutImg})` }}
             ></div>
           </div>
-          <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/10 rounded-2xl -z-0"></div>
           <div className="absolute top-1/2 -left-8 bg-primary p-8 rounded-xl shadow-xl z-20 hidden md:block">
-            <p className="text-white font-black text-4xl">10+</p>
-            <p className="text-white/80 text-xs font-bold uppercase tracking-widest mt-1">
+            <p className="text-white font-black text-4xl mx-3">10+</p>
+            <p className="text-white/80 text-xs font-bold uppercase tracking-widest mt-1 mx-3">
               Años de experiencia
             </p>
           </div>

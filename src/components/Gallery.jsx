@@ -60,16 +60,18 @@ export function Gallery() {
 
   return (
     <section className="w-full overflow-hidden bg-background-light py-16">
-      <div className="container max-w-9xl mx-auto flex items-center justify-between">
-        <div className="flex flex-col items-start space-y-2">
-          <span className=" text-primary text-xs font-bold uppercase tracking-wider px-5">
-            TRABAJOS SELECCIONADOS
-          </span>
-          <h2 className="text-2xl md:text-4xl sm:text-3xl font-black leading-[1.1] tracking-tight px-5">
-            GALERIA
-          </h2>
+      <div className="container max-w-9xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="flex justify-between w-full">
+          <div className="flex flex-col items-start space-y-2">
+            <span className=" text-primary text-xs font-bold uppercase tracking-wider px-5">
+              TRABAJOS SELECCIONADOS
+            </span>
+            <h2 className="text-3xl md:text-4xl sm:text-3xl font-black leading-[1.1] tracking-tight px-5">
+              GALERIA
+            </h2>
+          </div>
         </div>
-        <nav className="border border-gray-200 rounded-lg mr-5">
+        <nav className="border border-gray-200 rounded-lg mt-2">
           <ul className="flex">
             {categories.map((category) => (
               <li

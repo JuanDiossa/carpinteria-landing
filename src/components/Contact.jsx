@@ -5,7 +5,7 @@ export function Contact() {
         <div className="flex flex-col md:flex-row gap-10 md:gap-20 justify-between">
           <div>
             <span className="text-sm uppercase text-white bg-primary px-3 py-1 rounded-lg font-bold tracking-wide mb-3 inline-block">
-              Get in touch
+              Contactemonos
             </span>
             <h2 className=" text-3xl md:text-5xl sm:text-4xl font-black text-white leading-[1.1] tracking-tight">
               Contacta con nosotros
