@@ -1,4 +1,4 @@
-import heroBg from "/hero-bg1.webp";
+import heroBg from "/hero-bg11.webp";
 
 export function Hero() {
   return (
@@ -16,7 +16,7 @@ export function Hero() {
         </span>
         <h2 className=" text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight drop-shadow-lg">
           Carpintería moderna <br />a la
-          <span className="text-lightBrown italic drop-shadow-lg">
+          <span className="text-primaryBeige italic drop-shadow-lg">
             {" "}
             medida de tus sueños
           </span>
