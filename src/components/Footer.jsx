@@ -34,7 +34,7 @@ export function Footer() {
             </li>
           </ul>
         </nav> */}
-        <p className="sm:text-sm text-xs font-medium tracking-tight mb-3 text-gray-500 text-center">
+        <p className="sm:text-md text-xs font-medium tracking-tight mb-3 text-gray-500 text-center">
           © 2026 Carpintería Arte & Diseño. <br />
           Todos los derechos reservados.
         </p>

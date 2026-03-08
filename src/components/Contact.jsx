@@ -20,7 +20,7 @@ export function Contact() {
             <div className="space-y-6 mt-10">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-gray-800 flex items-center justify-center border border-gray-700">
-                  <span className="material-symbols-outlined text-primary">
+                  <span className="material-symbols-outlined text-lightBrown">
                     mail
                   </span>
                 </div>
@@ -33,7 +33,7 @@ export function Contact() {
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-gray-800 flex items-center justify-center border border-gray-700">
-                  <span className="material-symbols-outlined text-primary">
+                  <span className="material-symbols-outlined text-lightBrown">
                     location_on
                   </span>
                 </div>
@@ -118,7 +118,7 @@ export function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary hover:bg-blue-700 text-white font-black py-4 rounded-lg tracking-widest uppercase transition-all shadow-xl shadow-primary/20"
+              className="w-full bg-primary hover:bg-lightBrown text-white font-black py-4 rounded-lg tracking-widest uppercase transition-all shadow-xl shadow-primary/20"
             >
               Enviar mensaje
             </button>
